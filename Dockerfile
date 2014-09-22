@@ -11,7 +11,7 @@ RUN sudo gem install sass --no-ri --no-rdoc
 
 # RUN npm config set spin=false
 # RUN npm config set loglevel=warn
-RUN npm install -g grunt-cli
+RUN npm install -g grunt grunt-cli bower 
 
 VOLUME /app
 
